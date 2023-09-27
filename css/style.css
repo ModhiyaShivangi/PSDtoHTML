@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background-color: #21243d;
+}
+
+.navbar {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.sec-pad {
+    padding: 100px 0;
+}
+
+.p-50 {
+    padding: 50px 0;
+}
+
+.po-rel {
+    position: relative;
+}
+
+.po-abs {
+    position: absolute;
+}
+
+.align {
+    align-items: center;
+}
+
+.col-30 {
+    width: 100%;
+}
+
+.col-70 {
+    width: 100%;
+}
+
+.col-45 {
+    width: 100%;
+}
+
+.bg1 {
+    background-color: #ffd17d;
+}
+
+.bg2 {
+    background-color: #21243d;
+}
+
+.sec-one {
+    background-image: url(../image/bgimg_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-two {
+    overflow: hidden;
+}
+
+.sec-six {
+    background-image: url(../image/sec6img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* end of utility class ...........*/
+
+/* start section one.................. */
+.links ul li {
+    display: inline-block;
+    margin: 0 28px;
+
+}
+
+.links ul li a {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.links ul li a:hover {
+    color: #ee1a1a;
+    cursor: pointer;
+}
+
+.icon i {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.icon i:hover {
+    color: #ee1a1a;
+    font-size: 25px;
+}
+
+.sec-one-text {
+    padding: 100px 0;
+}
+
+.sec-one-text h1 {
+    color: #ffffff;
+    font-size: 125px;
+    font-weight: 700;
+    padding: 100px 0 50px 0;
+}
+
+.sec-one-text p {
+    color: #ffffff;
+    width: 50%;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 0 50px 0;
+}
+
+.order-now button {
+    font-size: 25px;
+    background-color: #21243d;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    width: 322px;
+    border-radius: 33px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* end section one.................. */
+/* start section two.................. */
+
+.sec-text {
+    text-align: center;
+    padding: 0 0 70px 0;
+    /* color: #ffffff; */
+}
+
+.sec-text h2 {
+    font-size: 64px;
+    font-weight: 700;
+    padding: 0 0 30px 0;
+}
+
+.sec-text p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.card-1 img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.card-1 h3 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.card-1 p {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec2-all-shape .shape_1 {
+    left: 220px;
+    top: -15px;
+}
+
+.sec2-all-shape .shape_2 {
+    left: 90px;
+    top: 197px;
+}
+
+.sec2-all-shape .shape_3 {
+    left: -100px;
+    bottom: 90px;
+}
+
+.sec2-all-shape .shape_4 {
+    right: 0;
+    bottom: 90px;
+}
+
+.sec2-all-shape .shape_5 {
+    right: -15px;
+    bottom: 350px;
+}
+
+.sec2-all-shape .shape_6 {
+    top: -40px;
+    right: -40px;
+
+}
+
+/* end section two.................. */
+/* start section three.................. */
+
+
+
+.sec-three-main img {
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sec-three-main h2 {
+    color: #21243d;
+    font-size: 64px;
+}
+
+.sec-three-main p {
+    color: #21243d;
+    font-size: 25px;
+    padding: 45px 0;
+
+}
+
+.sec3-all-shape .shape_1 {
+    top: 80px;
+    left: 40px;
+}
+
+.sec3-all-shape .shape_2 {
+    bottom: 40px;
+    left: 30px;
+}
+
+.sec3-all-shape .shape_3 {
+    bottom: 40px;
+    right: -50px;
+}
+
+.sec3-all-shape .shape_4 {
+    top: 40px;
+    right: 40px;
+}
+
+.sec3-all-shape .shape_5 {
+    top: 100px;
+    right: 500px;
+}
+
+/* end section three................. */
+
+/* start section four................. */
+
+.card-2 {
+    padding: 0 0 80px 0px;
+}
+
+.box-1 {
+    border: solid 5px white;
+    border-radius: 50%;
+    padding: 80px 25px;
+    margin: 30px 70px;
+    text-align: center;
+}
+
+.box-1 h3 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.box-1 h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.sec4-all-shape .shape_1 {
+    top: 50px;
+    left: 80px;
+}
+
+.sec4-all-shape .shape_2 {
+    top: 300px;
+    left: 100px;
+}
+
+.sec4-all-shape .shape_3 {
+    bottom: -80px;
+    left: 300px;
+}
+
+.sec4-all-shape .shape_4 {
+    bottom: 30px;
+    right: 350px;
+}
+
+.sec4-all-shape .shape_5 {
+    bottom: 90px;
+    right: 50px;
+}
+
+.sec4-all-shape .shape_6 {
+    top: 70px;
+    right: 40px;
+}
+
+/* end section four................. */
+/* start section five................. */
+
+
+
+.sec5-all-shape .shape_1 {
+    top: 150px;
+    left: 40px;
+}
+
+.sec5-all-shape .shape_2 {
+    bottom: 40px;
+    left: -50px;
+}
+
+.sec5-all-shape .shape_3 {
+    bottom: 30px;
+    right: 40px;
+}
+
+.sec5-all-shape .shape_4 {
+    top: 93px;
+    right: 118px;
+}
+
+.sec5-all-shape .shape_5 {
+    top: 50px;
+    left: 550px;
+}
+
+/* end section five................. */
+
+/* start section six................. */
+.sec-six-main{
+    color: white;
+    text-align: center;
+}
+
+.sec-six-main img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.sec-six-main p {
+    font-size: 25px;
+    margin: 40px 0 30px 0;
+    padding: 0px 55px;
+}
+
+.sec-six-main h5 {
+    font-size: 30px;
+}
+
+/* end section six................. */
+
+/* start section seven................. */
+
+.sec-7-text {
+    color: #21243d;
+    padding: 0 0 100px 0;
+}
+
+.input-fl {
+    text-align: center;
+}
+
+.input-fl input {
+    padding: 13px 20px;
+    width: 700px;
+    border: none;
+    border-radius: 25px;
+}
+
+.input-fl button {
+    padding: 14px 45px;
+    margin-left: -80px;
+    border: none;
+    border-radius: 25px;
+    background-color: #21243d;
+    color: white;
+}
+
+.sec7-all-shape .shape_1 {
+    top: 70px;
+    left: 70px;
+}
+
+.sec7-all-shape .shape_2 {
+    bottom: 100px;
+    left: 100px;
+}
+
+.sec7-all-shape .shape_3 {
+    bottom: 10px;
+    left: 600px;
+}
+
+.sec7-all-shape .shape_4 {
+    bottom: 50px;
+    right: 50px;
+}
+
+.sec7-all-shape .shape_5 {
+    top: 40px;
+    right: -50px;
+}
+
+.sec7-all-shape .shape_6 {
+    top: 60px;
+    right: 300px;
+}
+
+/* end section seven................. */
+/* start footer................. */
+footer {
+    background-color: #111111;
+    padding: 100px 0;
+}
+
+
+.one {
+    width: 100%;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.one .f-text {
+    font-size: 29px;
+}
+
+.one p {
+    font-size: 18px;
+    margin: 23px 0;
+}
+
+.foot-icon i {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+    padding: 9px 9px;
+}
+
+.second {
+    width: 100%;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.second p {
+    font-size: 26px;
+}
+
+.second ul {
+    margin: 25px 0;
+}
+
+.second ul li {
+    margin: 8px 0;
+    list-style: none;
+}
+
+.second ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* .............................end footer.... */
+
+
+/* ..............................media query */
+@media(min-width:375px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 100%;
+    }
+
+    .col-45 {
+        width: 100%;
+    }
+    .card-1 img {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+    .sec-text h2 {
+        font-size: 40px;
+    }
+    .sec-text p {
+        /* width: 80%; */
+        font-size: 19px;
+    }
+
+    .card-1 p {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+    /* ...........................sec-four */
+
+   
+    /* ...........................sec-three */
+    .sec-three-main p {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .sec-three-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .sec-five-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn button{
+        margin: 0 0 35px 0;
+    }
+
+    .sec-three-main {
+        text-align: center;
+    }
+}
+
+@media(min-width:425px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 100%;
+    }
+
+    .col-45 {
+        width: 100%;
+    }
+    .card-1 img {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .sec-text h2 {
+        font-size: 50px;
+    }
+
+    .sec-text p {
+        width: 70%;
+        font-size: 19px;
+    }
+
+    .card-1 p {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+   /* ...........................sec-four */
+    
+
+    /* ...........................sec-three */
+
+    .sec-three-main p {
+        width: 82%;
+        margin: 0 auto;
+    }
+    .sec-five-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn button{
+        margin: 0 0 35px 0;
+    }
+    /* ...........................sec-four */
+
+   
+}
+
+/* .....................................media-576 */
+@media(min-width:576px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 100%;
+    }
+
+    .col-45 {
+        width: 100%;
+    }
+    .card-1 img {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+    .sec-text p {
+        width: 70%;
+        font-size: 19px !important;
+    }
+
+    .card-1 h3 {
+        font-size: 35px;
+    }
+
+    .card-1 p {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+    /* ...........................sec-four */
+   
+
+
+    /* ...........................sec-three */
+
+    .sec-three {
+        overflow: hidden;
+    }
+
+    .sec-three-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sec-five-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn button{
+        margin: 0 0 35px 0;
+    }
+
+    .sec-three-main {
+        text-align: center;
+    }
+}
+
+/* ...................................media-768 */
+@media(min-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 35%;
+        margin: 0 10px;
+    }
+
+    .col-45 {
+        width: 100%;
+    }
+
+    .sec-two .row {
+        justify-content: center;
+    }
+    
+    .card-1 img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .sec-text p {
+        width: 30%;
+        font-size: 22px;
+    }
+
+    .card-1 h3 {
+        font-size: 35px;
+    }
+
+    .card-1 p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+    /* ...........................sec-four  */
+    .sec-four .row {
+        justify-content: center;
+    }
+
+    /* .......................sec-three */
+    .sec-three {
+        overflow: hidden;
+    }
+
+    .sec-three-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sec-three-text {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sec-three-text p {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* ..............................media-992 */
+@media(min-width:992px) {
+    .container {
+        width: 960px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+
+    .col-70 {
+        width: 70%;
+    }
+
+    /* .........sec-two  */
+
+    .sec-two .row {
+        justify-content: center;
+    }
+    
+   
+    .card-1 img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .sec-text p {
+        width: 30%;
+        font-size: 22px;
+    }
+
+    .card-1 h3 {
+        font-size: 35px;
+    }
+
+    .card-1 p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0 25px 0;
+    }
+    /* ..................sec-four  */
+
+
+
+
+    /* ..................sec-three  */
+
+    .sec-three {
+        overflow: hidden;
+    }
+
+    .sec-three-main {
+        margin: 0 auto;
+    }
+
+    .sec-three-main img {
+        width: 100%;
+    }
+
+
+}

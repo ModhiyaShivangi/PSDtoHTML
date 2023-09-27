@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* utility classes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #daac00;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.navbar {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.po-rel {
+    position: relative;
+}
+
+.po-abs {
+    position: absolute;
+}
+
+.sec-one {
+    background-color: #fcc302;
+}
+
+.sec-two {
+    background-color: #ffffff;
+}
+
+.sec-three {
+    background-color: #fcc302;
+}
+
+.sec-four {
+    background-color: #ffffff;
+}
+
+.sec-five {
+    background-color: #fcc302;
+}
+
+.sec-six {
+    background-color: #ffffff;
+}
+
+.sec-seven {
+    background-image: url(../image-2/sec7img.png);
+}
+
+.sec-eight {
+    background-color: #ffffff;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+
+/* ..................start sec-one................ */
+
+
+.sec-one-main {
+    padding: 100px 0;
+}
+
+.links ul li {
+    display: inline-block;
+    margin: 0 28px;
+
+}
+
+.links ul li a {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+.links ul li a:hover {
+    background-color: #00bec9;
+    cursor: pointer;
+}
+
+.input-fl input {
+    padding: 11px 20px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+    background-color: #fcc302;
+    border: none;
+    color: #ffffff;
+}
+
+.input-fl button {
+    padding: 11px 15px;
+    background-color: #00bec9;
+    border: none;
+    margin: 0 0 0 -30px;
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+}
+
+.input-fl button i {
+    font-size: 12px;
+    color: white;
+}
+
+.sec-one-text {
+    padding: 80px 0;
+}
+
+.sec-one-img img {
+    width: 100%;
+}
+
+.sec-one-text h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sec-one-text p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.contact-us button {
+    background-color: #00bec9;
+    color: white;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.our-Service button {
+    background-color: transparent;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border: solid 2px white;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+/* ..................end sec-one................ */
+
+/* ..................start sec-two................ */
+
+.sec-two-main {
+    padding: 100px 0;
+}
+
+.sec-two-text h2 {
+    font-size: 47px;
+    letter-spacing: 1px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.sec-two-text p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.sec-two-text .contact-us button {
+    background-color: #fcc302;
+    color: white;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+/* .shape-1{
+    bottom: -18px;
+    left: -26px;
+} */
+
+/* ..................end sec-two................ */
+
+/* ..................start sec-three................ */
+
+.sec-three-main {
+    padding: 100px 0;
+}
+
+.sec-three-text {
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+
+.sec-three-text {
+    text-align: center;
+}
+
+.sec-three-text h3 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 0 30px 0;
+
+}
+
+.sec-three-text p {
+
+    font-size: 21px;
+    color: #ffffff;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.card-1 {
+    text-align: center;
+}
+
+.card-1 h6 {
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+
+.card-1 p {
+    font-size: 18px;
+    color: white;
+    margin: 15px 0 15px 0;
+}
+
+/* ..................end sec-three................ */
+
+
+/* ..................start sec-four................ */
+
+.sec-four-main {
+    padding: 100px 0;
+}
+
+.sec-four-text h2 {
+    font-size: 47px;
+    letter-spacing: 1px;
+    color: #313243;
+    font-weight: 600;
+}
+
+.sec-four-text p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.sec-four-text .contact-us button {
+    background-color: #fcc302;
+    color: white;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+
+}
+
+/* .shape-2{
+    bottom: -18px;
+    right: -26px;
+} */
+
+
+/* ...........................end sec-four................ */
+
+/* ...........................start sec-five................ */
+
+.sec-five-main {
+    padding: 100px 0;
+}
+
+.sec-five-text {
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+
+.sec-five-text {
+    text-align: center;
+}
+
+.sec-five-text h3 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 0 30px 0;
+
+}
+
+.sec-five-text p {
+
+    font-size: 21px;
+    color: #ffffff;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.card-2 {
+    text-align: center;
+}
+
+
+.card-2-text .t1 {
+    font-size: 25px;
+    color: white;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 25px;
+    text-decoration: line-through;
+}
+
+.card-2-text h6 {
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    padding: 0 0 0 25px;
+}
+
+.Buy-Now {
+    padding: 25px 0 0 0;
+}
+
+.Buy-Now button {
+    background-color: #00bec9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 27px;
+    font-size: 18px;
+}
+
+/* ...........................end sec-five................  */
+
+
+/* .............................start sec-six................ */
+
+.sec-six-main {
+    padding: 100px 0;
+}
+
+.sec-six-text {
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+
+.sec-six-text {
+    text-align: center;
+}
+
+.sec-six-text h3 {
+    font-size: 60px;
+    color: #313243;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 0 30px 0;
+
+}
+
+.sec-six-text p {
+
+    font-size: 21px;
+    color: #313243;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.card-3 {
+    text-align: center;
+}
+
+.card-3-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #313243;
+    margin: 20px 0 0 0;
+
+}
+
+.card-3-text p {
+    font-size: 14px;
+    color: #313243;
+    font-weight: 400;
+    margin: 8px 0 15px 0;
+}
+
+.card-3-text .icon i {
+    padding: 8px 8px;
+    background-color: #daac00;
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+/* ..................end sec-six................  */
+
+
+
+
+/* .......................................start sec-seven................  */
+
+
+
+
+.sec-seven-main {
+    padding: 100px 0;
+}
+
+.sec-seven-main img {
+    margin: 0 auto;
+    display: block;
+}
+
+.sec-seven-text {
+    text-align: center;
+}
+
+.sec-seven-text h4 {
+    color: white;
+    font-size: 25px;
+    padding: 35px 0 10px 0;
+
+}
+
+.sec-seven-text h3 {
+    color: white;
+    font-size: 25px;
+}
+
+/* ......................................start sec-eight................  */
+.sec-eight-main {
+    padding: 100px 0;
+}
+
+.sec-eight-text {
+    text-align: center;
+}
+
+.sec-eight-text h3 {
+    color: #313243;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sec-eight-text p {
+    font-size: 21px;
+    color: #313243;
+    width: 40%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.card-box {
+    margin: 0 20px;
+    /* box-shadow: 2px 5px rgba(0, 0, 0, 0.194); */
+    width: 18rem;
+}
+
+.card-box:hover {
+    /* box-shadow: 2px 5px rgba(0, 0, 0, 0.194); */
+
+}
+
+.card-box img {
+    width: 100%;
+}
+
+.card-text {
+    border: 1px solid #d5d5d5;
+    border-top: none;
+    font-family: "Poppins";
+}
+
+.card-text h4 {
+    font-size: 21px;
+    color: #313243;
+    font-weight: 600;
+    margin: 10px 0 5px 15px;
+}
+
+.card-text h5 {
+    font-size: 14px;
+    color: #00bec9;
+    font-weight: 400;
+    margin: 5px 0 5px 15px;
+   
+}
+
+.card-text p {
+    font-size: 14px;
+    color: #313243;
+    font-weight: 400;
+    margin: 5px 0 5px 15px;
+}
+.card-text h6 {
+    font-size: 18px;
+    color: #00bec9;
+    font-weight: 500;
+    margin: 5px 0 10px 15px;
+    
+}
+
+/* ..................end sec-eight................  */
+
+
+
+/* start footer................. */
+footer {
+    background-color: #111111;
+    padding: 100px 0;
+}
+
+
+.one {
+    width: 100%;
+    color: #181616;
+    padding: 100px 0;
+    text-align: right;
+}
+
+.one h4 {
+    color: white;
+    font-size: 29px;
+}
+
+.one p {
+    color: white;
+    font-size: 16px;
+    margin: 7px 0 25px 0;
+}
+
+.one input {
+    padding: 16px 60px;
+    background-color: #daac00;
+    border: none;
+}
+
+.one button {
+    padding: 16px 35px;
+    background-color: #00bec9;
+    border: none;
+    margin-left: -20px;
+}
+
+.one button i {
+    font-size: 14px;
+    color: white;
+}
+
+
+.foot-icon i {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px 7px;
+    margin: 30px 0 0 0;
+}
+
+.second {
+    width: 100%;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.second p {
+    color: white;
+    font-size: 26px;
+}
+
+.second ul {
+    margin: 25px 0;
+}
+
+.second ul li {
+    margin: 8px 0;
+    list-style: none;
+}
+
+.second ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* end footer................. */
