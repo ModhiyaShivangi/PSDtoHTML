@@ -12,10 +12,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 1200px;
 }
 
 header {
@@ -23,7 +22,7 @@ header {
 }
 
 .navbar {
-    padding: 20px 0;
+    padding: 20 0;
     align-items: center;
 }
 
@@ -57,15 +56,15 @@ header {
 }
 
 .col-30 {
-    width: 100%;
+    width: 30%;
 }
 
 .col-70 {
-    width: 100%;
+    width: 70%;
 }
 
 .col-45 {
-    width: 100%;
+    width: 45%;
 }
 
 .bg1 {
@@ -515,309 +514,3 @@ footer {
 
 
 /* ..............................media query */
-@media(min-width:375px) {
-    .container {
-        width: 100%;
-    }
-
-    .col-30 {
-        width: 100%;
-    }
-
-    .col-45 {
-        width: 100%;
-    }
-    .card-1 img {
-        width: 40%;
-        margin: 0 auto;
-        display: block;
-    }
-    .sec-text h2 {
-        font-size: 40px;
-    }
-    .sec-text p {
-        /* width: 80%; */
-        font-size: 19px;
-    }
-
-    .card-1 p {
-        width: 70%;
-        margin: 0 auto;
-        padding: 0 0 25px 0;
-    }
-    /* ...........................sec-four */
-
-   
-    /* ...........................sec-three */
-    .sec-three-main p {
-        width: 82%;
-        margin: 0 auto;
-    }
-
-    .sec-three-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-    .sec-five-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-    .btn button{
-        margin: 0 0 35px 0;
-    }
-
-    .sec-three-main {
-        text-align: center;
-    }
-}
-
-@media(min-width:425px) {
-    .container {
-        width: 100%;
-    }
-
-    .col-30 {
-        width: 100%;
-    }
-
-    .col-45 {
-        width: 100%;
-    }
-    .card-1 img {
-        width: 40%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .sec-text h2 {
-        font-size: 50px;
-    }
-
-    .sec-text p {
-        width: 70%;
-        font-size: 19px;
-    }
-
-    .card-1 p {
-        width: 70%;
-        margin: 0 auto;
-        padding: 0 0 25px 0;
-    }
-   /* ...........................sec-four */
-    
-
-    /* ...........................sec-three */
-
-    .sec-three-main p {
-        width: 82%;
-        margin: 0 auto;
-    }
-    .sec-five-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-    .btn button{
-        margin: 0 0 35px 0;
-    }
-    /* ...........................sec-four */
-
-   
-}
-
-/* .....................................media-576 */
-@media(min-width:576px) {
-    .container {
-        width: 100%;
-    }
-
-    .col-30 {
-        width: 100%;
-    }
-
-    .col-45 {
-        width: 100%;
-    }
-    .card-1 img {
-        width: 40%;
-        margin: 0 auto;
-        display: block;
-    }
-    .sec-text p {
-        width: 70%;
-        font-size: 19px !important;
-    }
-
-    .card-1 h3 {
-        font-size: 35px;
-    }
-
-    .card-1 p {
-        width: 70%;
-        margin: 0 auto;
-        padding: 0 0 25px 0;
-    }
-    /* ...........................sec-four */
-   
-
-
-    /* ...........................sec-three */
-
-    .sec-three {
-        overflow: hidden;
-    }
-
-    .sec-three-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .sec-five-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-    .btn button{
-        margin: 0 0 35px 0;
-    }
-
-    .sec-three-main {
-        text-align: center;
-    }
-}
-
-/* ...................................media-768 */
-@media(min-width:768px) {
-    .container {
-        width: 100%;
-    }
-
-    .col-30 {
-        width: 35%;
-        margin: 0 10px;
-    }
-
-    .col-45 {
-        width: 100%;
-    }
-
-    .sec-two .row {
-        justify-content: center;
-    }
-    
-    .card-1 img {
-        width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .sec-text p {
-        width: 30%;
-        font-size: 22px;
-    }
-
-    .card-1 h3 {
-        font-size: 35px;
-    }
-
-    .card-1 p {
-        width: 90%;
-        margin: 0 auto;
-        padding: 0 0 25px 0;
-    }
-    /* ...........................sec-four  */
-    .sec-four .row {
-        justify-content: center;
-    }
-
-    /* .......................sec-three */
-    .sec-three {
-        overflow: hidden;
-    }
-
-    .sec-three-img img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .sec-three-text {
-        text-align: center;
-        margin: 20px 0;
-    }
-
-    .sec-three-text p {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-
-/* ..............................media-992 */
-@media(min-width:992px) {
-    .container {
-        width: 960px;
-    }
-
-    .col-30 {
-        width: 30%;
-    }
-
-    .col-45 {
-        width: 45%;
-    }
-
-    .col-70 {
-        width: 70%;
-    }
-
-    /* .........sec-two  */
-
-    .sec-two .row {
-        justify-content: center;
-    }
-    
-   
-    .card-1 img {
-        width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-
-    .sec-text p {
-        width: 30%;
-        font-size: 22px;
-    }
-
-    .card-1 h3 {
-        font-size: 35px;
-    }
-
-    .card-1 p {
-        width: 90%;
-        margin: 0 auto;
-        padding: 0 0 25px 0;
-    }
-    /* ..................sec-four  */
-
-
-
-
-    /* ..................sec-three  */
-
-    .sec-three {
-        overflow: hidden;
-    }
-
-    .sec-three-main {
-        margin: 0 auto;
-    }
-
-    .sec-three-main img {
-        width: 100%;
-    }
-
-
-}
